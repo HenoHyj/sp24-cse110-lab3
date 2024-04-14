@@ -8,8 +8,6 @@ Question 6 Passcode: ThisIsJS
 Question 7 Passcode: YouFoundMe
 Question 8 passcode: coolcoolcool
 Question 9 passcode: 2020sucked
-btn.addEventListener('click', () => {
-  fetch('./question10.jpg');
-});
+Question 10 passcode: listenToTheBlackKeys
 Question11 : a11yComesFirst
 Question12passcode="iLoveWebDev"
