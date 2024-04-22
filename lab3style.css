@@ -4,9 +4,8 @@
   --secondary-bg-color: #666;
 }
 
-h1 { color: rgb(255, 0, 0); margin: 2em; }
-p { color: #FFFFFF; font-size: 14vh; }
-div { background-color: hsla(50, 33%, 25%, 0.8); width: 75vw;}
+p { color: #e7df10c1; font-size: 8vh; }
+div { background-color: hsla(50, 33%, 25%, 0.8); width: 25vw;}
 span { color: color(srgb, 0 0.5 0 / 0.8); }
 
 .title {
@@ -15,14 +14,13 @@ span { color: color(srgb, 0 0.5 0 / 0.8); }
   display: block;
 }
 
-
 body { background-color: var(--main-bg-color, black); 
   text-align: center;
 }
 
 /* Styling for different sections using ID selectors */
 #meeting_title h1 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(255, 0, 0); margin: 2em; ;
 }
 
 #attendance ul {
