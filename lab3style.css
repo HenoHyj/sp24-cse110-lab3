@@ -1,6 +1,7 @@
 div { background-color: hsl(51, 26%, 26%); height: 10vw; width: 25vw;}
 span { color: color(srgb, 0 0.5 0 / 0.8); }
-*.p :hover{
+
+a:hover{
   background-color: rgb(202, 179, 51);
   border-style: inset;
 }
@@ -92,11 +93,11 @@ picture img {
 .flex-container>div {
   background-color: black;
   color: red;
-  width: 100px;
+  width: 1000px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 nav {
