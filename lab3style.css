@@ -1,6 +1,6 @@
-div { background-color: hsl(51, 26%, 26%); height: 25vw; width: 25vw;}
+div { background-color: hsl(51, 26%, 26%); height: 10vw; width: 25vw;}
 span { color: color(srgb, 0 0.5 0 / 0.8); }
-p :hover{
+.p :hover{
   background-color: rgb(202, 179, 51);
   border-style: inset;
 }
@@ -22,7 +22,7 @@ p :hover{
   border-color:#0a0c08c1;
   border-width:8px;
   border-radius:10px;
-  font-family: "copperplate", fantasy;
+  font-family: "Jersey 25", sans-serif;
   background-color: var(--HD-yellow);
 
 }
