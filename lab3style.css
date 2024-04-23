@@ -1,5 +1,4 @@
 div { background-color: hsl(51, 26%, 26%); height: 5vw; width: 25vw;}
-span { color: color(srgb, 0 0.5 0 / 0.8); }
 
 input[type="date"] {
   border: 2px solid #3498db;
@@ -12,6 +11,7 @@ h1:has(+ h2) {
 
 h2, h3 {
   font-family: 'Arial', sans-serif;
+  color: color(srgb 0 0 0);
 }
 
 main + details {
@@ -61,7 +61,7 @@ body { background-color: var(--main-bg-color, rgba(5, 4, 2, 0.824)); }
 
 /* Styling for different sections using ID selectors */
 #meeting_title h1 {
-  color: rgb(255, 0, 0); margin: 2em; ;
+  color: rgb(255, 0, 0); margin: 2em;
 }
 
 #attendance #agenda h2{
@@ -97,14 +97,13 @@ body { background-color: var(--main-bg-color, rgba(5, 4, 2, 0.824)); }
   position: relative;
   text-decoration: underline overline;
   text-align: center;
-  margin: 10px 10px 10px 10px;
+  margin: 30px 10px 10px 10px;
   padding: 2% 2% 2% 2%;
   border: 5px groove rgb(38, 49, 77);
-  background-color:goldenrod;
+  background-color: rgb(202, 179, 51);
   font-size: 20px;
   
-  grid-column: 1 / -1; 
-  grid-row: 2;
+  display: block;
 }
 
 picture img {
@@ -115,7 +114,7 @@ picture img {
 .flex-items {
   display: flex;
   align-items: stretch;
-  background-color: goldenrode;
+  background-color: rgb(202, 179, 51);
 }
 
 .flex-items>div {
@@ -130,24 +129,28 @@ picture img {
 
 .grid-items {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr auto; 
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   padding: 20px;
+  margin-bottom: 20px; 
 }
-
 
 @media (max-width: 768px) {
   .grid-items {
     grid-template-columns: 1fr; 
   }
 
-  #new_business, main {
-    width: 100%; 
+  #new_business {
+    margin-top: 20px; 
+  }
+
+  main {
+    margin-top: 20px;
   }
 }
 
 nav {
   position: sticky;
   top: 10px;
+  color: color-mix(in srgb, blue 50%, grey 50%);
 }
