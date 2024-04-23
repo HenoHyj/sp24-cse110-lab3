@@ -1,5 +1,26 @@
-div { background-color: hsl(51, 26%, 26%); height: 10vw; width: 25vw;}
+div { background-color: hsl(51, 26%, 26%); height: 5vw; width: 25vw;}
 span { color: color(srgb, 0 0.5 0 / 0.8); }
+
+input[type="date"] {
+  border: 2px solid #3498db;
+  padding: 5px;
+}
+
+h2, h3 {
+  font-family: 'Arial', sans-serif;
+}
+
+main + details {
+  font-family: 'Arial', sans-serif;
+}
+
+div +  main{
+  font-family: 'Arial', sans-serif;
+}
+
+span.footer {
+  text-decoration: underline;
+}
 
 a:hover{
   background-color: rgb(202, 179, 51);
@@ -69,6 +90,7 @@ body { background-color: var(--main-bg-color, rgba(5, 4, 2, 0.824)); }
 }
 
 #unfinished {
+  position: relative;
   text-decoration: underline overline;
   text-align: center;
   margin: 10px 10px 10px 10px;
@@ -96,8 +118,8 @@ picture img {
   width: 1000px;
   margin: 10px;
   text-align: center;
-  line-height: 55px;
-  font-size: 15px;
+  line-height: 40px;
+  font-size: 20px;
 }
 
 .grid-items{
@@ -114,6 +136,8 @@ picture img {
   }
   
   main {
+    flex-direction: column;
+    width: 60%;
     grid-template-columns: 1fr;
   }
 }
