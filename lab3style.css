@@ -6,7 +6,7 @@ a:hover{
   border-style: inset;
 }
 
-.title {
+*.title {
   text-decoration: underline overline;
   text-align: center;
   display: block;
@@ -61,7 +61,7 @@ body { background-color: var(--main-bg-color, rgba(5, 4, 2, 0.824)); }
 }
 
 #agenda ol {
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 #hidden_text {
@@ -102,9 +102,20 @@ picture img {
 
 .grid-items{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Defines three columns of equal width */
-  grid-gap: 20px; /* Space between the grid items */
-  padding: 20px; /* Optional: padding around the entire grid */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  
+  main {
+    grid-template-columns: 1fr;
+  }
 }
 
 nav {
