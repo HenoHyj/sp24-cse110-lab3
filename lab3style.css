@@ -21,7 +21,7 @@ span { color: color(srgb, 0 0.5 0 / 0.8); }
   background-color: var(--HD-yellow);
 }
 
-body { background-color: var(--main-bg-color, rgb(58, 39, 39)); }
+body { background-color: var(--main-bg-color, rgba(63, 52, 36, 0.591)); }
 
 /* Styling for different sections using ID selectors */
 #meeting_title h1 {
