@@ -6,6 +6,10 @@ input[type="date"] {
   padding: 5px;
 }
 
+h1:has(+ h2) {
+  margin: 0 0 0.25rem 0;
+}
+
 h2, h3 {
   font-family: 'Arial', sans-serif;
 }
@@ -99,6 +103,8 @@ body { background-color: var(--main-bg-color, rgba(5, 4, 2, 0.824)); }
   background-color:goldenrod;
   font-size: 20px;
   
+  grid-column: 1 / -1; 
+  grid-row: 2;
 }
 
 picture img {
@@ -122,23 +128,22 @@ picture img {
   font-size: 20px;
 }
 
-.grid-items{
+.grid-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr auto; 
   grid-gap: 20px;
   padding: 20px;
 }
 
 
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
+  .grid-items {
+    grid-template-columns: 1fr; 
   }
-  
-  main {
-    flex-direction: column;
-    width: 60%;
-    grid-template-columns: 1fr;
+
+  #new_business, main {
+    width: 100%; 
   }
 }
 
