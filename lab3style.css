@@ -102,9 +102,9 @@ picture img {
 
 .grid-items{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Defines three columns of equal width */
-  grid-gap: 20px; /* Space between the grid items */
-  padding: 20px; /* Optional: padding around the entire grid */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
 }
 
 nav {
