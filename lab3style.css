@@ -1,10 +1,3 @@
-
-:root {
-  --main-bg-color: #333;
-  --secondary-bg-color: #666;
-}
-
-p { color: #e7df10c1; font-size: 4vh; }
 div { background-color: hsla(50, 33%, 25%, 0.8); width: 25vw;}
 span { color: color(srgb, 0 0.5 0 / 0.8); }
 
@@ -21,7 +14,7 @@ span { color: color(srgb, 0 0.5 0 / 0.8); }
   padding-left: 30px;
   padding-right: 30px;
   border-style:dashed;
-  border-color:rgba(39, 47, 25, 0.897);
+  border-color:#425935c1;
   border-width:8px;
   border-radius:10px;
   font-family: "copperplate", fantasy;
