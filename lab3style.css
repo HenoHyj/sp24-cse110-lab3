@@ -60,7 +60,7 @@ body { background-color: var(--main-bg-color, rgba(5, 4, 2, 0.824)); }
   display: none;
 }
 
-#unfinished h2{
+#unfinished {
   text-decoration: underline overline;
   text-align: center;
   margin: 10px 10px 10px 10px;
@@ -76,7 +76,7 @@ picture img {
   max-height: 50%;
 }
 
-.section {
+.item {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
