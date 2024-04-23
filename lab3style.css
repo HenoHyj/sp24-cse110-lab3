@@ -6,6 +6,10 @@ input[type="date"] {
   padding: 5px;
 }
 
+h1:has(+ h2) {
+  margin: 0 0 0.25rem 0;
+}
+
 h2, h3 {
   font-family: 'Arial', sans-serif;
 }
