@@ -14,11 +14,7 @@ h2, h3 {
   color: color(srgb 0 0 0);
 }
 
-main + details {
-  font-family: 'Arial', sans-serif;
-}
-
-div +  main{
+div ~ details {
   font-family: 'Arial', sans-serif;
 }
 
@@ -146,9 +142,6 @@ picture img {
     margin-top: 70px; 
   }
 
-  main {
-    margin-top: 70px;
-  }
 }
 
 nav {
